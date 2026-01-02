@@ -1,41 +1,98 @@
-# AI SDK PDF Support Example
+<div align="center">
+  <br />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=QuizPDF&fontSize=90&fontColor=ffffff&fontAlignY=35&desc=Turn%20Any%20Document%20Into%20Interactive%20Exams&descAlignY=55&descFontSize=25&animation=fadeIn" alt="QuizPDF Header" width="100%" />
 
-This example demonstrates how to use the [AI SDK](https://sdk.vercel.ai/docs) with [Next.js](https://nextjs.org/) with the `useObject` hook to submit PDF messages to the AI provider of your choice (Google or Anthropic).
+  <br />
 
-## Deploy your own
+  <a href="https://nextjs.org">
+    <img src="https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js 15" />
+  </a>
+  <a href="https://sdk.vercel.ai">
+    <img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel AI SDK" />
+  </a>
+  <a href="https://tailwindcss.com">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  </a>
+  <a href="https://ui.shadcn.com">
+    <img src="https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radix-ui&logoColor=white" alt="Radix UI" />
+  </a>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-sdk-preview-pdf-support&env=GOOGLE_API_KEY&envDescription=API%20keys%20needed%20for%20application&envLink=google.com)
+  <br />
+  <br />
+  
+  <p align="center">
+    <b>PDF Parsing</b> • <b>Multi-Model AI</b> • <b>Instant Feedback</b>
+  </p>
+</div>
 
-## How to use
+<br />
 
-Run [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## 🧠 What is QuizPDF?
+
+QuizPDF transforms passive reading into active learning. Upload any PDF course, research paper, or manual, and let the AI challenge your understanding.
+
+Powered by the cutting-edge **Vercel AI SDK**, it supports Google Gemini, Anthropic Claude, and OpenAI GPT-4.
+
+---
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <h1>📄</h1>
+        <h3>Deep Analysis</h3>
+        <p>Parses complex PDFs.<br/>Extracts key concepts instantly.</p>
+      </td>
+      <td align="center" width="33%">
+        <h1>🤖</h1>
+        <h3>Model Agnostic</h3>
+        <p>Switch between Gemini, Claude,<br/>and GPT models seamlessly.</p>
+      </td>
+      <td align="center" width="33%">
+        <h1>⚡</h1>
+        <h3>Next.js 15</h3>
+        <p>Built on the bleeding edge.<br/>React Server Components & Actions.</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| **Framework** | Next.js 15 (App Router) |
+| **AI Intelligence** | Vercel AI SDK 4.0 |
+| **Styling** | TailwindCSS + Shadcn/ui |
+| **Animations** | Framer Motion |
+| **PDF Processing** | Custom `useObject` Parsing pipelines |
+
+## 🚀 Quick Start
 
 ```bash
-npx create-next-app --example https://github.com/vercel-labs/ai-sdk-preview-pdf-support ai-sdk-preview-pdf-support-example
+# 1. Clone the intelligence
+git clone https://github.com/zay168/quizpdf.git
+cd quizpdf
+
+# 2. Install dependencies
+npm install
+
+# 3. Configure AI Keys
+cp .env.example .env
+# Add your GOOGLE_API_KEY, ANTHROPIC_API_KEY, etc.
+
+# 4. Start Learning
+npm run dev
 ```
 
-```bash
-yarn create next-app --example https://github.com/vercel-labs/ai-sdk-preview-pdf-support ai-sdk-preview-pdf-support-example
-```
+## 🌐 Deployment
 
-```bash
-pnpm create next-app --example https://github.com/vercel-labs/ai-sdk-preview-pdf-support ai-sdk-preview-pdf-support-example
-```
+Deploy your instance to the edge in seconds.
 
-To run the example locally you need to:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzay168%2Fquizpdf)
 
-1. Sign up for accounts with the AI providers you want to use (e.g., Google).
-2. Obtain API keys for Google provider.
-3. Set the required environment variables as shown in the `.env.example` file, but in a new file called `.env`.
-4. `npm install` to install the required dependencies.
-5. `npm run dev` to launch the development server.
+---
 
-
-## Learn More
-
-To learn more about Vercel AI SDK or Next.js take a look at the following resources:
-
-- [AI SDK docs](https://sdk.vercel.ai/docs)
-- [Vercel AI Playground](https://play.vercel.ai)
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
+</div>
